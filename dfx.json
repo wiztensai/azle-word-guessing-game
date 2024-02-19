@@ -1,0 +1,12 @@
+{
+  "canisters": {
+    "guess_word": {
+      "type": "custom",
+      "main": "src/index.ts",
+      "candid": "src/index.did",
+      "build": "npx azle guess_word",
+      "wasm": ".azle/guess_word/guess_word.wasm",
+      "gzip": true
+    }
+  }
+}

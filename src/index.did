@@ -1,0 +1,5 @@
+service: () -> {
+    handleGuess: (text) -> (variant {Ok:record {msg:text}; Err:variant {InvalidInput:text}});
+    renderWord: () -> (variant {Ok:record {msg:text}; Err:variant {InvalidInput:text}});
+    startGame: () -> (variant {Ok:record {msg:text}; Err:variant {InvalidInput:text}});
+}
